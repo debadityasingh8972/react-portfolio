@@ -84,24 +84,24 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            {/* <div className="info-map">
-                Slobodan Gajić,
+            <div className="info-map">
+                Debaditya Singh,
                 <br />
-                Serbia,
+                India,
                 <br />
-                Branka RadiČevića 19, 22000 <br />
-                Sremska Mitrovica <br />
+                Bishnupur Road, 742102 <br />
+                Berhampore <br />
                 <br />
-                <span>freelancerslobodan@gmail.com</span>
+                <span>debadityasingh6@gmail.com</span>
             </div>
             <div className="map-wrap">
-                <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+                <MapContainer center={[23.99999, 87.99999]} zoom={13}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    <Marker position={[44.96366, 19.61045]}>
-                        <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+                    <Marker position={[23.99999, 87.99999]}>
+                        <Popup>Debaditya lives here, come over for a cup of coffee :)</Popup>
                     </Marker>
                 </MapContainer>
-            </div> */}
+            </div>
         </div>
         <Loader type="pacman" />
     </>
